@@ -1,0 +1,22 @@
+{
+  "name": "linkedincompanion",
+  "version": "0.1.0",
+  "description": "LinkedIn Companion Microsoft Edge extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "manifoldjs -l debug -p edgeextension package edgeextension\\manifest\\"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HIROSN/LinkedInCompanion.git"
+  },
+  "author": "hirosn@live.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HIROSN/LinkedInCompanion/issues"
+  },
+  "homepage": "https://github.com/HIROSN/LinkedInCompanion#readme",
+  "devDependencies": {
+    "manifoldjs": "^0.7.6"
+  }
+}
