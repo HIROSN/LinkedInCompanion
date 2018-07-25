@@ -1,2 +1,3 @@
 node_modules/
 edgeextension/package/
+package-lock.json
