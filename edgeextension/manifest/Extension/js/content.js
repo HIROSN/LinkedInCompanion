@@ -1,3 +1,5 @@
+'use strict';
+
 (function() {
   var isActive = true,
   updateIcon = function(active) {
