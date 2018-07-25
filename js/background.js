@@ -11,5 +11,5 @@ browser.runtime.onMessage.addListener(
 );
 
 browser.browserAction.onClicked.addListener(function(tab) {
-  browser.tabs.update(tab.id, { url: 'https://www.linkedin.com/' })
+  browser.tabs.update(tab.id, { url: 'https://www.linkedin.com/' });
 });
