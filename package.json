@@ -4,7 +4,7 @@
   "description": "LinkedIn Companion Microsoft Edge extension",
   "main": "index.js",
   "scripts": {
-    "test": "gulp && manifoldjs -l debug -p edgeextension package edgeextension\\manifest\\"
+    "test": "gulp && manifoldjs -l debug -p edgeextension package edgeextension/manifest/"
   },
   "repository": {
     "type": "git",
