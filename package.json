@@ -2,7 +2,6 @@
   "name": "linkedincompanion",
   "version": "0.1.0",
   "description": "LinkedIn Companion Microsoft Edge extension",
-  "main": "index.js",
   "scripts": {
     "test": "gulp && manifoldjs -l debug -p edgeextension package edgeextension/manifest/"
   },
