@@ -2,6 +2,7 @@
 
 (function() {
   var isActive = true;
+  var timer = null;
 
   var updateIcon = function(active) {
     if (active != isActive) {
@@ -34,7 +35,8 @@
       window.requestAnimationFrame(hideExpandedFooter);
     }
 
-    window.setTimeout(function() {
+    timer = timer || window.setTimeout(function() {
+      timer = null;
       updateIcon(false);
       styleExpandedFooter(null);
     }, 1000);
